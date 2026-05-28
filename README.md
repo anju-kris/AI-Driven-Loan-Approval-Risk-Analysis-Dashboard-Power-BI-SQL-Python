@@ -18,6 +18,7 @@ This project delivers an end-to-end data analysis solution evaluating a dataset 
 
 ## Executive Dashboard
 ![Loan Risk Dashboard Preview](dashboard/loan_risk_and_approval_analysis_insights.png) 
+![Loan Risk Dashboard Preview](dashboard/loan_risk_and_approval_analysis_recommendations.png)
 
 ---
 
