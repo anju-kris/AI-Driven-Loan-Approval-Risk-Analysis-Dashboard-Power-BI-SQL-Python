@@ -23,9 +23,15 @@ This project delivers an end-to-end data analysis solution evaluating a dataset 
 ---
 
 ## Key Insights Discovered
-* **Employment Impact:** Salaried applicants demonstrate higher loan approval rates compared to self-employed individuals, highlighting a corporate preference for steady, predictable income streams.
-* **Risk Segmentation:** Developed a programmatic risk matrix classifying applicants into Low, Medium, and High-Risk profiles based on credit scores, income levels, and loan-to-income (LTI) ratios.
-* **Geographic & Demographic Trends:** Isolated the top-performing regions by loan volume, education levels yielding the highest average incomes, and specific age groups driving peak application velocity.
+* **High-Barrier Gatekeeper (77% Rejection Rate): ** The institution faces a massive application bottleneck with an overall rejection rate of 77.0% (only 23.0% approval across 5K applicants). This indicates highly conservative lending criteria or an influx of unqualified leads.
+
+* ** The 600-Credit Score Hard Stop:** Applicants with credit scores below 600 are almost universally denied, facing rejection rates exceeding 97% across all sub-600 brackets ($300-399$, $400-499$, and $500-599$). True credit viability only begins when scores cross the 600 benchmark, where approval rates jump drastically to ~49%.
+
+* ** Employment Paradox & Operational Waste:** While salaried and self-employed applicants show nearly identical approval distributions (~33% approved vs. ~67% rejected), unemployed individuals generate a staggering volume of 1,608 requests while yielding a microscopic ~3% approval rate. Processing these represents significant operational waste.
+
+* **Education vs. Approvals:** Counterintuitively, higher academic tiers do not yield dramatically higher approval volumes. PhD holders achieved the highest absolute approvals (301), but the volume across Bachelors, High School, and Masters remains tightly clustered between 261 and 279 approvals, suggesting income and credit data heavily outweigh credentialing.
+
+* **Capital Demand Mismatch:** The absolute heaviest loan demand originates from mid-to-low income brackets requesting maximum loan amounts. A cluster of 3,508 applicants making $\$25\text{k}-\$75\text{k}$ are consistently seeking loans exceeding $\$40\text{k}+$, mismatching conservative debt-to-income limits.
 
 ---
 
