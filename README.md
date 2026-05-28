@@ -17,9 +17,7 @@ This project delivers an end-to-end data analysis solution evaluating a dataset 
 ---
 
 ## Executive Dashboard
-* Add a high-quality screenshot of your Power BI dashboard here using markdown:*
 ![Loan Risk Dashboard Preview](dashboard/loan_risk_and_approval_analysis_insights.png) 
-*(Tip: Replace this path with wherever you save your dashboard screenshot image in your repo!)*
 
 ---
 
