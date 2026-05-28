@@ -42,6 +42,14 @@ The PostgreSQL script features 40 comprehensive business queries divided into th
 3. **Statistical Outlier Detection:** Implementation of Interquartile Range (IQR) calculations using SQL window functions and percentiles to isolate anomalies in loan amounts and applicant incomes.
 
 ## Strategic Recommendations
-*Based on the insights from your data, add 2-3 high-level action points here. For example:*
-* **Refine Self-Employed Risk Models:** Introduce stricter secondary financial checks or alternative documentation requirements for self-employed applicants to bridge the approval rate gap safely.
-* **Automate Low-Risk Approvals:** Establish an automated fast-track approval pipeline for applicants falling into the programmatically defined "Low-Risk" category to improve operational efficiency.
+* **Implement Automated Pre-Screening:**
+Since applicants with credit scores below 600 face a 97%+ rejection rate and unemployed individuals yield a microscopic ~3% approval rate, the institution should implement automated pre-screening gatekeepers. Automatically filtering out these high-risk applications before they reach underwriting will eliminate a massive bottleneck and dramatically reduce operational waste.
+
+* **Develop Tailored Loan Products for the "Capital Mismatch":**
+The data shows an intense concentration of demand (3,508 applicants) from low-to-mid income brackets ($25\text{k} - $75\text{k}$) requesting maximum tier loans of $40k+. Because these requests likely violate safe debt-to-income limits, the business should design smaller, structured, or collateral-backed loan products specifically capped for these income ranges to safely capture this massive market demand.
+
+* **Optimize the Self-Employed Underwriting Pipeline:**
+Salaried and self-employed applicants have almost identical approval distributions (~33% approved / ~67% rejected), showing that employment type itself isn't a negative driver. To safely improve approvals for self-employed individuals, the institution should introduce alternative risk-assessment metrics—such as consistent business cash-flow patterns or professional tenure—rather than relying solely on traditional credit scores.
+
+* **Launch a Credit Builder Product Line:**
+With an overall market rejection rate of 77%, the institution is turning away the vast majority of its applicant pool. By introducing a "Credit Builder" or micro-loan program targeted at applicants in the 500–599 credit score tier, the business can nurture high-rejection demographics into qualified future borrowers while generating low-risk, entry-level revenue.
